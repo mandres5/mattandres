@@ -1,0 +1,58 @@
+body {
+    background-color: #f4f4f4; /* Light grey background for the entire page */
+    font-family: 'Roboto', sans-serif; /* Use Roboto font for all text */
+    color: #333; /* Dark grey text color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004d40; /* Dark teal background for the header */
+    color: white; /* White text in the header */
+    padding: 10px 0; /* Vertical padding for header */
+    text-align: center; /* Center-align text in the header */
+}
+
+nav ul {
+    list-style: none; /* Remove bullets from list items */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 15px; /* Space between links */
+}
+
+nav ul li a {
+    color: white; /* White text for navigation links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold text for links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+main {
+    padding: 20px; /* Padding around the main content */
+    background-color: #fff; /* White background for the main content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 800px; /* Max width for the main content */
+    margin: 20px auto; /* Center the main content with margin auto */
+}
+
+h1, h2 {
+    color: #00796b; /* Teal color for headings */
+}
+
+footer {
+    background-color: #004d40; /* Match the header background */
+    color: white; /* White text in the footer */
+    text-align: center; /* Center-align footer text */
+    padding: 10px; /* Padding inside the footer */
+    position: fixed; /* Fix footer to the bottom */
+    bottom: 0; /* Align to the bottom of the page */
+    width: 100%; /* Full width footer */
+}
