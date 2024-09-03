@@ -43,6 +43,31 @@ main {
     margin: 20px auto; /* Center the main content with margin auto */
 }
 
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    border-radius: 50%; /* Circular profile image */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.intro h1, .intro h2, .intro h3 {
+    margin: 0;
+}
+
+.research-interests, .about-work {
+    margin-bottom: 20px;
+}
+
+.section-img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space below images */
+}
+
 h1, h2 {
     color: #00796b; /* Teal color for headings */
 }
