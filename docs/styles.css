@@ -35,6 +35,17 @@ nav ul li a:hover {
     text-decoration: underline; /* Underline links on hover */
 }
 
+.float-left {
+    float: left; /* Float the image to the left */
+    margin-right: 15px; /* Space between the image and the text */
+    margin-bottom: 15px; /* Space below the image */
+}
+
+.float-right {
+    float: right; /* Float the image to the right */
+    margin-left: 15px; /* Space between the image and the text */
+    margin-bottom: 15px; /* Space below the image */
+}
 main {
     padding: 20px; /* Padding around the main content */
     background-color: #fff; /* White background for the main content */
