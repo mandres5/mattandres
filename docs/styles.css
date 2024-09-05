@@ -1,17 +1,23 @@
-css:
+/* General styles */
 body {
     background-color: #f4f4f4;
     font-family: 'Roboto', sans-serif;
     color: #333;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth; /* Smooth scrolling */
 }
 
+/* Header and navigation */
 header {
     background-color: #004d40;
     color: white;
     padding: 10px 0;
     text-align: center;
+    position: fixed; /* Fixed header */
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensures header stays on top */
 }
 
 nav ul {
@@ -35,8 +41,9 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+/* Main content area */
 main {
-    padding: 20px;
+    padding: 100px 20px 20px; /* Increased padding to account for fixed header */
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
@@ -66,6 +73,7 @@ h1, h2 {
     clear: both;
 }
 
+/* Footer */
 footer {
     background-color: #004d40;
     color: white;
@@ -74,4 +82,10 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Anchor section highlights (optional) */
+section:target {
+    background-color: #e0f2f1; /* Slight highlight for target section */
+    transition: background-color 0.3s ease;
 }
