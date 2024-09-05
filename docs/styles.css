@@ -76,10 +76,9 @@ footer {
     bottom: 0;
     width: 100%;
 }
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+
+/* Center images */
 .image-container {
     text-align: center; /* Centers the image horizontally */
+    margin: 0 auto; /* Optional: for additional centering in a container */
 }
