@@ -1,7 +1,7 @@
 /* General styles */
 body {
     background-color: #121212; /* Fallback dark background */
-    background-image: url('path-to-your-image.jpg'); /* Background image */
+    background-image: img src="images/Me2.jpeg"; /* Background image */
     background-size: cover; /* Ensures the image covers the entire background */
     background-position: center center; /* Centers the background image */
     background-attachment: fixed; /* Keeps the background fixed while scrolling */
