@@ -83,9 +83,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
-/* Anchor section highlights (optional) */
-section:target {
-    background-color: #e0f2f1; /* Slight highlight for target section */
-    transition: background-color 0.3s ease;
-}
