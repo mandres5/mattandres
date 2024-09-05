@@ -8,7 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #e0e0e0; /* Light text */
     margin: 0;
-    padding: 0;
+    padding: 20x;
     scroll-behavior: smooth; /* Smooth scrolling */
 }
 
