@@ -8,7 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #e0e0e0; /* Light text */
     margin: 0;
-    padding: 20x;
+    padding: 0;
     scroll-behavior: smooth; /* Smooth scrolling */
 }
 
@@ -72,6 +72,10 @@ footer {
     color: #ffffff; /* Light text */
     text-align: center;
     padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
     position: fixed;
     bottom: 0;
     width: 100%;
