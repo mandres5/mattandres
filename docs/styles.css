@@ -1,7 +1,7 @@
 /* General styles */
 body {
     background-color: #121212; /* Fallback dark background */
-    background-image: img src="images/night.JPG"; /* Background image */
+    background-image: url('images/night.JPG'); /* Background image */
     background-size: cover; /* Ensures the image covers the entire background */
     background-position: center center; /* Centers the background image */
     background-attachment: fixed; /* Keeps the background fixed while scrolling */
@@ -57,7 +57,6 @@ main {
 
 h1, h2 {
     color: #83cb80; /* Lighter green for headings */
-
 }
 
 /* Clearfix */
