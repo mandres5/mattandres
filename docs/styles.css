@@ -55,17 +55,6 @@ h1, h2 {
     color: #007938;
 }
 
-/* Floating images */
-.float-left {
-    float: left;
-    margin: 0 15px 15px 0;
-}
-
-.float-right {
-    float: right;
-    margin: 0 0 15px 15px;
-}
-
 /* Clearfix */
 .clearfix::after {
     content: "";
