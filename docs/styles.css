@@ -1,6 +1,10 @@
 /* General styles */
 body {
     background-color: #f4f4f4;
+    background-image: url('docs/images/night.JPG'); /* Background image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center center; /* Centers the background image */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
     font-family: 'Roboto', sans-serif;
     color: #333;
     margin: 0;
