@@ -1,6 +1,10 @@
 /* General styles */
 body {
-    background-color: #121212; /* Dark background */
+    background-color: #121212; /* Fallback dark background */
+    background-image: url('path-to-your-image.jpg'); /* Background image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center center; /* Centers the background image */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
     font-family: 'Roboto', sans-serif;
     color: #e0e0e0; /* Light text */
     margin: 0;
@@ -48,22 +52,12 @@ main {
     border-radius: 8px;
     box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1); /* Soft white shadow */
     max-width: 800px;
-    margin: 20px auto;
+    margin: 20px auto; /* Centers the content */
 }
 
 h1, h2 {
     color: #83cb80; /* Lighter green for headings */
-}
 
-/* Floating images */
-.float-left {
-    float: left;
-    margin: 0 15px 15px 0;
-}
-
-.float-right {
-    float: right;
-    margin: 0 0 15px 15px;
 }
 
 /* Clearfix */
